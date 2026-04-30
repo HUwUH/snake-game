@@ -1,0 +1,18 @@
+[project]
+name = "snake-game"
+version = "0.1.0"
+description = "贪吃蛇游戏 - Classic Snake Game"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.uv]
+package = true
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.20.0",
+]
+
+[project.scripts]
+snake = "snake_game.main:main"
