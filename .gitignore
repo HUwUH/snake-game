@@ -11,3 +11,5 @@ wheels/
 
 # other files
 .zip
+build_temp/
+*.spec
